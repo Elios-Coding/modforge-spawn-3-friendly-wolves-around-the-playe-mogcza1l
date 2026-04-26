@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "spawn-3-friendly-wolves-around-the-playe-mogcza1l",
+  "version": "${version}",
+  "name": "Spawn 3 Friendly Wolves Around The Player",
+  "description": "Spawns three tamed friendly wolves around a player when they are sneaking while holding a bone.",
+  "authors": [
+    "Elio"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/spawn-3-friendly-wolves-around-the-playe-mogcza1l/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.modforge.spawn3friendlywolvesaroundtheplaye.Spawn3FriendlyWolvesAroundThePlayeMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
